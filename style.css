@@ -17,8 +17,8 @@ background-image: linear-gradient( 120deg, rgba(15, 182, 215, 0.1)  0% 100%);
    width: 100%;
     height:auto;
   
-  
 }
+
 .fondo{
     position: fixed;
     top: 0;
@@ -31,9 +31,26 @@ background-image: linear-gradient( 120deg, rgba(15, 182, 215, 0.1)  0% 100%);
 
 .space{
     position: relative;
- background-color: RED;
+
     width: 500px;
-    height: 500px;
+    height: 700px;
 
 }
 
+.space2{
+    position: relative;
+
+    width: 500px;
+    height: 200px;
+
+}
+
+.imagenesc{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+   width: auto;
+    height:auto;
+  
+}
