@@ -73,7 +73,14 @@
     <div class="space"></div>
 
     <script>
-        var s = skrollr.init();
+/*         var s = skrollr.init(); */
+
+        skrollr.init({
+  mobileCheck: function() {
+    // Retorna verdadero si la animación debe ser habilitada en dispositivos móviles
+    return (/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera);
+  }
+});
     </script>
 </body>
 
